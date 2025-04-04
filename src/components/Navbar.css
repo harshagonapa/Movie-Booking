@@ -1,0 +1,210 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 20px 30px;
+  height: 100px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.logo-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start; /* Moves the logo to the left */
+  margin-left: 20px; /* Adjust as needed to position the logo */
+}
+
+.navbar-logo {
+  height: 90px; 
+  width: auto;
+  animation: blinkLogo 2s infinite; /* Apply blinking effect */
+}
+
+/* Keyframes for blinking */
+@keyframes blinkLogo {
+  0%, 100% {
+    opacity: 1; /* Visible */
+  }
+  50% {
+    opacity: 0; /* Invisible */
+  }
+}
+
+/* Keep the rest of the CSS unchanged */
+.search-container {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  width: 350px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-right: 20px;
+}
+
+.location-select {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.auth-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sign-in-btn {
+  padding: 10px 20px;
+  background-color: #ff4081; 
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sign-in-btn:hover {
+  background-color: #c8071e;
+}
+
+/* Modal styles - unchanged */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+.modal h2 {
+  margin-bottom: 20px;
+}
+
+.modal-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.modal-sign-in-btn,
+.modal-btn {
+  padding: 10px 20px;
+  background-color: #ff4081;
+  color: white;
+  border: none;
+  border-radius: 9px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px; 
+}
+
+.close-modal-btn {
+  margin-top: 20px;
+  background-color: #e60905;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.sign-up-text {
+  margin-top: 10px;
+}
+
+.sign-up-link {
+  color: #ff4081;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+/* 
+
+.navbar {
+  background-color: #333;
+  color: rgb(195, 15, 189);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  margin: 0;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: rgb(16, 176, 24);
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.modal h2 {
+  margin-bottom: 20px;
+}
+
+.modal-input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #511299;
+  border-radius: 5px;
+}
+
+.modal-sign-in-btn, .close-modal-btn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  background-color: #28a745;
+  color: rgb(153, 11, 11);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-sign-in-btn:hover, .close-modal-btn:hover {
+  background-color: #218838;
+}
+
+.modal-message {
+  color: red;
+  margin-top: 10px;
+} */

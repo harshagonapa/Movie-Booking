@@ -1,0 +1,21 @@
+/* src/components/MovieGrid.css */
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* 6 columns */
+  gap: 20px; /* Space between the cards */
+  margin: 20px; /* Add some margin around the grid */
+}
+
+.movie-card {
+  text-align: center; /* Center the text */
+  border: 1px solid #dddddd; /* Optional: border around each card */
+  border-radius: 10px; /* Optional: round corners */
+  overflow: hidden; /* Ensure image doesn't overflow */
+  background-color: #fff; /* Optional: background color */
+}
+
+.movie-image {
+  width: 100%; /* Full width of the card */
+  height: 350px; /* Increased height */
+  object-fit: cover; /* Maintain aspect ratio */
+}

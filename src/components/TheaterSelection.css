@@ -1,0 +1,40 @@
+/* src/components/TheaterSelection.css */
+
+.theater-selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full height of the viewport */
+    background-size: cover;
+    background-position: center;
+    color: white; /* Adjust text color for visibility */
+  }
+  
+  .theater-title {
+    font-size: 3rem; /* Increase title font size */
+    margin-bottom: 20px; /* Space between title and buttons */
+  }
+  
+  .theater-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between buttons */
+  }
+  
+  .theater-button {
+    padding: 15px 30px; /* Button padding */
+    font-size: 1.5rem; /* Increase button font size */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    color: white; /* Text color */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  .theater-button:hover {
+    background-color: rgba(255, 255, 255, 0.7); /* Change color on hover */
+    color: black; /* Change text color on hover */
+  }
+  
