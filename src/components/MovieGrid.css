@@ -1,0 +1,11 @@
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns grid */
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .movie-grid h2 {
+    text-align: center;
+  }
+  
